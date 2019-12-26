@@ -2,8 +2,8 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-.homeblock {
-  font-family: sans-serif;
+.bio {
+  line-height: 150%
 }
 
 .navigation {
@@ -20,7 +20,7 @@ body {
 }
 
 .active-nav-link {
-  transition: color 0.5s;
+  transition: color 0.3s;
   border-bottom: 1px solid black;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 .nav-link {
-  transition: color 0.5s;
+  transition: color 0.3s;
   border-bottom: 1px solid transparent;
 }
 
@@ -46,6 +46,24 @@ body {
 .container {
   margin-top: 30px;
   margin-bottom: 60px;
-  margin-left: 160px;
-  margin-right: 160px;
+  margin-left: 220px;
+  margin-right: 220px;
+}
+
+.nameblock {
+  font-size: 1.2em;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  line-height: 85%;
+}
+
+h4 {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 90%;
+}
+
+ul {
+  margin-top: -7px;
+  margin-bottom:-7px;
 }
