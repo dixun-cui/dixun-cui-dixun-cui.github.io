@@ -93,7 +93,23 @@ hr {
   margin-top: 25px;
 }
 
+h5 {
+  font-size: 22px;
+  margin-bottom: -26px;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+  margin-bottom: 16px;
+}
+
 ul {
   margin-top: -7px;
   margin-bottom:-7px;
+}
+
+.projectDesc {
+
 }
