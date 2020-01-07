@@ -382,10 +382,11 @@ ul {
     float: right;
     margin-left: 10%;
     margin-top: 7%;
+    margin-bottom: 10%;
   }
 
   .turbineBlock {
-    margin-bottom: 25%;
+    margin-bottom: 30%;
   }
 
   .joycon {
