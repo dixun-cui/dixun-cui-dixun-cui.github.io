@@ -359,10 +359,10 @@ ul {
   }
 
   .PCA {
-    width: 60%;
+    width: 80%;
     height: auto;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
     padding: 5%;
     margin-bottom: 10%;
   }
@@ -417,5 +417,11 @@ ul {
     margin-left: 20%;
     margin-right: 20%;
     padding: 5%;
+  }
+
+  .foot {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 0.7em;
   }
 }
