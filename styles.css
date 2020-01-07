@@ -13,7 +13,7 @@ body {
   margin-bottom: 24px;
 }
 
-.navigation > div {
+.navigation>div {
   margin-left: 10px;
   margin-right: 10px;
   text-transform: lowercase;
@@ -46,8 +46,8 @@ body {
 .container {
   margin-top: 10px;
   margin-bottom: 60px;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .nameblock {
@@ -56,12 +56,16 @@ body {
   margin-bottom: 40px;
   line-height: 85%;
 }
+
 .courseblock {
   line-height: 150%;
 }
+
 .circPic {
   float: right;
-  margin-right:130px;
+  margin-right: 130px;
+  width: 200px;
+  height: 200px;
 }
 
 .pageHead {
@@ -74,8 +78,8 @@ body {
 }
 
 .foot {
-  margin-left: 220px;
-  margin-right: 220px;
+  margin-left: 15%;
+  margin-right: 15%;
   font-size: 0.7em;
 }
 
@@ -107,10 +111,287 @@ h6 {
 
 ul {
   margin-top: -7px;
-  margin-bottom:-7px;
+  margin-bottom: -7px;
 }
 
 .projectDesc {
   margin-bottom: 10px;
+}
 
+.hpvside {
+  width: 433px;
+ height: 231.6px;
+ padding: 4px 6px 4px 0px;
+}
+
+.hpvframe {
+  width: 356.4px;
+  height: 231.6px;
+  padding: 4px 0px 4px 6px;
+}
+
+.hpvproto {
+  width: 308.9px;
+  height: 231.7px;
+  padding: 4px 72px 4px 24px;
+}
+
+.hpvsim {
+  width: 370.7px;
+  height: 231.7px;
+  padding: 4px 0px 4px 6px;
+}
+
+.hpvcad {
+  width:456px;
+  height:283.2px;
+  padding: 4px 48px 4px 0px;
+}
+
+.hpvfile {
+  width:212.4px;
+  height:283.2px;
+  padding: 4px 0px 4px 20px;
+}
+
+.EEfront {
+  width:184.3px;
+  height:245.8px;
+  padding:4px 24px 4px 0px;
+}
+
+.EEtop {
+   width:184.3px;
+   height:245.8px;
+   padding: 4px 0px 4px 0px;
+}
+
+.PCA {
+  width:412.1px;
+  height:245.8px;
+  padding: 4px 0px 4px 6px;
+}
+
+.gitlet {
+  width:283px;
+  height:194px;
+  float: left;
+  padding: 5px 20px 10px 0px;
+}
+
+.turbine {
+  width:177.5px;
+  height:236.5px;
+  float: right;
+  padding: 5px 20px 5px 25px;
+}
+
+.joycon {
+   width: 181.4px;
+   height: 155.6px;
+   float: left;
+   padding: 5px 20px 10px 0px;
+}
+
+.pianorack1 {
+  width: 398.64px;
+  height: 332.64px;
+  padding: 4px 20px 4px 0px;
+}
+
+.pianorack2 {
+  width: 316.36px;
+  height: 332.64px;
+  padding: 4px 0px 4px 20px;
+}
+
+.phoenixPic {
+   width: 201.6px;
+   height: 277.125px;
+   float: right;
+   padding: 5px 0 10px 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .navigation {
+    display: flex;
+    justify-content: center;
+    margin: 15%;
+    margin-bottom: 20%;
+  }
+
+  .container {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .circPic {
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    margin-bottom: 15%;
+  }
+
+  h1 {
+    font-size: 120%;
+    font-weight: bold;
+  }
+
+  h4 {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 80%;
+  }
+
+  .bio {
+    margin-top: -5%;
+    line-height: 120%;
+    font-size: 90%;
+  }
+
+  .courseblock {
+    line-height: 150%;
+    font-size: 80%;
+  }
+
+  h2 {
+    font-size: 130%;
+  }
+
+  h3 {
+    font-size: 110%;
+  }
+
+  ul {
+    margin-left: -10%;
+  }
+
+  .pageHead {
+    font-size: 80%;
+    margin-top: 20%;
+  }
+
+  .blurb {
+    margin-left: 0;
+    color: #808080;
+    font-size: 80%;
+    margin-bottom: 5%;
+  }
+
+  h5 {
+    font-size: 100%;
+    margin-bottom: -5%;
+  }
+
+  h6 {
+    font-size: 80%;
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 5%;
+  }
+
+  .projectDesc {
+    margin-bottom: 5%;
+    font-size: 80%;
+  }
+
+  .hpvside {
+   width: 80%;
+   height: auto;
+   padding: 5%;
+  }
+
+  .hpvframe {
+    width: 80%;
+    height: auto;
+    padding: 5%;
+  }
+
+  .hpvproto {
+    width: 80%;
+    height: auto;
+    padding: 5%;
+  }
+
+  .hpvsim {
+    width: 80%;
+    height: auto;
+    padding: 5%;
+  }
+
+  .hpvcad {
+    width: 80%;
+    height: auto;
+    padding: 5%;
+  }
+
+  .hpvfile {
+    width: 80%;
+    height: auto;
+    padding: 5%;
+  }
+
+  .EEfront {
+    width: 40%;
+    height: auto;
+    padding: 5%;
+  }
+
+  .EEtop {
+    width: 40%;
+    height: auto;
+    padding: 5%;
+  }
+
+  .PCA {
+    width: 60%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+  }
+
+  .gitlet {
+    width: 80%;
+    height: auto;
+    padding: 5%;
+  }
+
+  .turbine {
+    width: 30%;
+    height: auto;
+    padding: 5%;
+    float: right;
+  }
+
+  .joycon {
+    width: 60%;
+    margin-right: 10%;
+    margin-left: 10%;
+    height: auto;
+    padding: 5%;
+  }
+
+  .pianorack1 {
+    width: 80%;
+    height: auto;
+    padding: 5%;
+  }
+
+  .pianorack2 {
+    width: 80%;
+    height: auto;
+    padding: 5%;
+  }
+
+  .phoenixPic {
+    width: 40%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+  }
 }
