@@ -338,12 +338,14 @@ ul {
     width: 40%;
     height: auto;
     padding: 5%;
+    padding-right: 1%;
   }
 
   .EEtop {
     width: 40%;
     height: auto;
     padding: 5%;
+    padding-left: 1%;
   }
 
   .PCA {
@@ -358,6 +360,8 @@ ul {
     width: 80%;
     height: auto;
     padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .turbine {
@@ -373,6 +377,7 @@ ul {
     margin-left: 10%;
     height: auto;
     padding: 5%;
+    margin-bottom: 5%;
   }
 
   .pianorack1 {
@@ -388,10 +393,10 @@ ul {
   }
 
   .phoenixPic {
-    width: 40%;
+    width: 50%;
     height: auto;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
     padding: 5%;
   }
 }
