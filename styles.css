@@ -376,11 +376,12 @@ ul {
   }
 
   .turbine {
-    width: 60%;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 40%;
     height: auto;
-    padding: 8%;
+    padding: 5%;
+    float: right;
+    margin-left: 10%;
+    margin-top: 7%;
   }
 
   .joycon {
