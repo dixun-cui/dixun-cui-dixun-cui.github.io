@@ -341,6 +341,7 @@ ul {
     width: 80%;
     height: auto;
     padding: 5%;
+    margin-bottom: 10%;
   }
 
   .EEfront {
@@ -363,6 +364,7 @@ ul {
     margin-left: 10%;
     margin-right: 10%;
     padding: 5%;
+    margin-bottom: 10%;
   }
 
   .gitlet {
@@ -374,10 +376,11 @@ ul {
   }
 
   .turbine {
-    width: 35%;
+    width: 60%;
+    margin-left: 15%;
+    margin-right: 15%;
     height: auto;
     padding: 8%;
-    float: right;
   }
 
   .joycon {
@@ -399,6 +402,7 @@ ul {
     width: 80%;
     height: auto;
     padding: 5%;
+    margin-bottom: 10%;
   }
 
   .phoenixPic {
