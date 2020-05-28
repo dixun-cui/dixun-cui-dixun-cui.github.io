@@ -305,10 +305,16 @@ ul {
   .projectDesc {
     margin-bottom: 15%;
     font-size: 80%;
+    height: 100%;
   }
 
-  .HelmetMount {
-    
+  .helmetmount {
+    position: relative;
+    max-width: 40%;
+    max-height: auto;
+    padding: 5%;
+    width: 80%;
+    height: auto;
   }
 
   .hpvside {
