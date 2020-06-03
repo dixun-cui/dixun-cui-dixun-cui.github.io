@@ -118,8 +118,22 @@ ul {
   margin-bottom: 20%;
 }
 
+.helmetmount {
+  width: 40%;
+  height: auto;
+  padding: 4px 12px 1px 4px;
+  margin-bottom: -8px;
+}
+
+.explodedmount {
+  height: 301.6px;
+  width: auto;
+  padding: 4px 4px 1px 12px;
+  margin-bottom: -8px;
+}
+
 .hpvside {
-  width: 433px;
+ width: 433px;
  height: 231.6px;
  padding: 4px 6px 4px 0px;
 }
