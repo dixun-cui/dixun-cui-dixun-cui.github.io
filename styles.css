@@ -242,6 +242,12 @@ ul {
    padding: 5px 0 10px 20px;
 }
 
+.labView {
+  width: 50%;
+  height:auto;
+  margin-bottom: -10%
+}
+
 @media only screen and (max-width: 768px) {
   .navigation {
     display: flex;
@@ -327,6 +333,11 @@ ul {
     margin-bottom: 15%;
     font-size: 80%;
     height: 100%;
+  }
+
+  .labView {
+    width: 60%;
+    height:auto;
   }
 
   .helmetmount {
