@@ -248,6 +248,25 @@ ul {
   margin-bottom: -10%
 }
 
+.PrintedShield {
+  width: 35%;
+  height: auto;
+  margin-right: 24px;
+  margin-bottom: -11%;
+}
+
+.PrinterShield {
+  width: 35%;
+  height: auto;
+  margin-left: 24px;
+  margin-bottom: -11%
+}
+
+.Frame1_2021 {
+  width: 50%;
+  margin-bottom: -10%;
+}
+
 @media only screen and (max-width: 768px) {
   .navigation {
     display: flex;
