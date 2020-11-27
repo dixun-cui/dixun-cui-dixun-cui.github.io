@@ -263,8 +263,14 @@ ul {
 }
 
 .Frame1_2021 {
-  width: 50%;
+  width: 45%;
   margin-bottom: -10%;
+}
+
+.PortfolioPic {
+  width: 30%;
+  height: auto;
+  margin-left: 1%;
 }
 
 @media only screen and (max-width: 768px) {
