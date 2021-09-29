@@ -263,8 +263,14 @@ ul {
 }
 
 .Frame1_2021 {
-  width: 45%;
-  margin-bottom: -10%;
+  width: 60%;
+  margin-top: -4%;
+  margin-bottom: 0%;
+}
+
+.Pizza {
+  width: 50%;
+  margin-bottom: -5%;
 }
 
 .PortfolioPic {
@@ -345,6 +351,7 @@ ul {
   h5 {
     font-size: 100%;
     margin-bottom: -5%;
+    margin-top: -5%;
   }
 
   h6 {
@@ -355,7 +362,7 @@ ul {
   }
 
   .projectDesc {
-    margin-bottom: 15%;
+    margin-bottom: 0%;
     font-size: 80%;
     height: 100%;
   }
